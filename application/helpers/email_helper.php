@@ -15,7 +15,7 @@ if ( ! function_exists('send_email'))
 //            'smtp_host' => 'relay-hosting.secureserver.net',
 //            'smtp_port' => 25,
 //            'smtp_user' => "richard@robios.co.nz",//$email,
-//            'smtp_pass' => "carol1974",//$ci->config->item('smtp_pass'),
+//            'smtp_pass' => ,//$ci->config->item('smtp_pass'),
 //            'mailtype' => 'html',
 //            'charset' => 'utf-8'
 //        );
