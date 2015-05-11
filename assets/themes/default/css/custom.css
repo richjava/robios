@@ -1,0 +1,150 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+
+ 
+    Created on : 5/02/2015, 4:23:29 PM
+    Author     : richard.lovell
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+body {
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+h1,
+h2,
+h3 {
+  display: block;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #fff;
+}
+h3 {
+  font-size: 43px;
+  line-height: 56px;
+   width: 40%;
+  opacity: .8;
+}
+form {
+  margin-top: 30px;
+}
+.form-control {
+  background: #e8eff1;
+}
+.box {
+  max-width: 940px;
+  width: 970px;
+  margin: auto;
+}
+.devices {
+  top: 190px;
+  position: absolute;
+  right: 100px;
+  width: 425px;
+  display: block;
+}
+#intro {
+  background-color: #33495d;
+}
+#intro .container {
+  padding: 200px 60px;
+}
+#intro h3 {
+  text-align: right;
+  margin-right: 570px;
+  display: inline-block;
+}
+#about {
+  text-align: center;
+  background-color: #e8eff1;
+}
+#about .container {
+  padding: 100px;
+}
+#about h3 {
+  margin: 20px 0;
+  color: #777;
+}
+#rabbit-img {
+  margin: 100px;
+}
+#services {
+  text-align: center;
+  background-color: #bf392b;
+}
+#services .container {
+  padding: 100px;
+  height: 1300px;
+      background: green;
+}
+#services h3 {
+  color: #fff;
+}
+.arrow {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 40px solid transparent;
+  border-bottom: 40px solid transparent;
+}
+#services-wrapper .arrow-right {
+  top: 190px;
+  right: 100px;
+  border-left: 40px solid rgba(255, 0, 0, 0.4);
+}
+#services-wrapper .arrow-left {
+  top: 190px;
+  right: -60px;
+  border-right: 40px solid rgba(255, 0, 0, 0.4);
+}
+#services #services-wrapper {
+  position: relative;
+  margin: 0 auto;
+  width: 700px;
+  height: 1000px;
+  border-right: 5px dotted #7f0000;
+  border-right: 5px dotted rgba(255, 0, 0, 0.4);
+}
+#services .service {
+  width: 700px;
+  text-align: left;
+  padding: 120px 200px 0 0;
+  color: white;
+}
+#services-wrapper img {
+  position: absolute;
+  right: -90px;
+}
+#plan {
+  top: 150px;
+}
+#collaborate {
+  top: 470px;
+}
+#deliver {
+  top: 780px;
+}
+#contact {
+  text-align: center;
+  background-color: #e8eff1;
+}
+#contact .container {
+  padding: 100px;
+}
+#contact h3 {
+  margin: 20px 0;
+  color: #777;
+}
+p {
+  font-size: 22px;
+  line-height: 35px;
+}
+footer {
+  font-weight: 300;
+  font-size: 16px;
+  text-align: center;
+  color: #777;
+  padding: 50px 0;
+}*/

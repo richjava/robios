@@ -1,0 +1,63 @@
+/* 
+    Created on : 5/02/2015, 4:23:29 PM
+    Author     : richard.lovell
+*/
+body {
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+h1{color:#333;text-align: center;display: block;margin: 50px 0 30px 20px;}
+
+a {
+  color: #2773ae;
+}
+
+.nav a{
+    color:#444444;
+}
+/*h1,
+h2,
+h3 {
+  display: block;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #444444;
+}*/
+h3 {
+  font-size: 43px;
+  /*line-height: 56px;
+   width: 40%;*/
+  /*opacity: .8;*/
+}
+
+
+
+p {
+  font-size: 22px;
+  line-height: 35px;
+}
+
+p.blurb{font-size:14px;text-align:center;color:#666666;}
+
+#main-wrapper{padding-top:50px;}
+
+footer {
+  /*font-weight: 300;*/
+  font-size: 16px;
+  text-align: center;
+  color: #777;
+  padding: 50px 0;
+}
+
+.center-button-wrapper{text-align: center;padding: 50px 0 50px 0;}
+
+.center {
+     float: none;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+.hidden{
+    display: none;
+}

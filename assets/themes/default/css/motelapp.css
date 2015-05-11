@@ -1,0 +1,65 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 14, 2015, 10:29:21 PM
+    Author     : richard_lovell
+*/
+#motelapp{margin-top: 100px;}
+#about{height:1000px;}
+#motelapp h1{color:#333;text-align: left;margin: 50px 0 30px 20px;}
+#video-wrapper h1{font-size:300px;text-align: center;opacity: 0.2;margin-top:200px;}
+#features{background:blue;}
+#dashboard h1{color:#333;text-align: left;margin: 50px 0 30px 20px;}
+#dashboard h2{color:#333;margin: 30px 0 20px 0;text-align:center;}
+#dashboard p.blurb{font-size:14px;text-align:center;color:#666666;}
+
+.nav-tabs > li > a, .nav-pills > li > a {margin-left:20px;margin-right:20px;}
+
+.misc-wrapper{
+    padding: 19px 18px;
+  border-top: 1px solid #d6d6d6;
+  border-right: 1px solid #d6d6d6;
+  border-left: 1px solid #d6d6d6;
+}
+
+.misc-block ul {
+     list-style: none;
+}
+
+.misc-block .block2 {
+  margin-left: 0;
+  margin-left: 0;
+  background-image: linear-gradient(bottom 90deg, #FFFFFF 11%, #FBFBFB 63%, #E2E2E2 100%);
+  background-image: -o-linear-gradient(bottom 90deg, #FFFFFF 11%, #FBFBFB 63%, #E2E2E2 100%);
+  background-image: -moz-linear-gradient(bottom 90deg, #FFFFFF 11%, #FBFBFB 63%, #E2E2E2 100%);
+  background-image: -webkit-linear-gradient(bottom 90deg, #FFFFFF 11%, #FBFBFB 63%, #E2E2E2 100%);
+  background-image: -ms-linear-gradient(bottom 90deg, #FFFFFF 11%, #FBFBFB 63%, #E2E2E2 100%);
+  background-image: -webkit-gradient( linear, right bottom, left top,	color-stop(0.11, #FFFFFF), color-stop(0.63, #FBFBFB), color-stop(1, #E2E2E2) );
+}
+
+.misc-block .block1,.block3 {
+  margin-left: 0;
+  background-image: linear-gradient(bottom, #FFFFFF 89%, #F9F9F9 98%, #F0F0F0 100%);
+  background-image: -o-linear-gradient(bottom, #FFFFFF 89%, #F9F9F9 98%, #F0F0F0 100%);
+  background-image: -moz-linear-gradient(bottom, #FFFFFF 89%, #F9F9F9 98%, #F0F0F0 100%);
+  background-image: -webkit-linear-gradient(bottom, #FFFFFF 89%, #F9F9F9 98%, #F0F0F0 100%);
+  background-image: -ms-linear-gradient(bottom, #FFFFFF 89%, #F9F9F9 98%, #F0F0F0 100%);
+  background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0.89, #FFFFFF), color-stop(0.98, #F9F9F9), color-stop(1, #F0F0F0) );
+}
+
+.soft-updates li {
+  border-bottom: 1px solid #d6d6d6;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+
+.active{color:green;}
+.pending{color:orange;}
+
+.no-thumb{text-align:center !important;padding:0; margin:30px !important;color:#ccc !important;}
+.list-thumbnail{text-align:center;margin:0 auto;display:block;}
+

@@ -1,0 +1,54 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 21/04/2015, 6:13:35 PM
+    Author     : richard.lovell
+*/
+#detail-content{margin-top:60px;position:relative;height:500px;}
+
+/*.detail-coupon:before {
+    position:absolute;
+    font-family: FontAwesome;
+    color:#2dc93c;
+    font-size:20em;
+    opacity: 0.40;
+    top:5%;
+    left:37%;
+    content: "\f145";
+}*/
+
+.detail-coupon:before {
+    position:absolute;
+    font-family: FontAwesome;
+    color:#2dc93c;
+    font-size:60em;
+    opacity: 0.10;
+    top:-400px;
+    left:20%;
+    content: "\f145";
+}
+
+.detail-deal:before {
+    position:absolute;
+    font-family: FontAwesome;
+    color:yellow;
+    font-size:60em;
+    opacity: 0.10;
+    top:-400px;
+    left:20%;
+    content: "\f0a3";
+}
+
+.detail-news:before {
+    position:absolute;
+    font-family: FontAwesome;
+    color:silver;
+    font-size:40em;
+    opacity: 0.10;
+    top:-200px;
+    left:30%;
+    content: "\f1ea";
+}
