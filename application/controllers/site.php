@@ -76,26 +76,21 @@ class Site extends CI_Controller {
         } else {//if validates
             $this->load->helper('email');
             $name = $this->input->post('name');
-$subject = 'Enquiry from '.$name;
-        $email = $this->input->post('email');
-	$subject = 'Your Robios enquiry';
-	$url_friendly_subject = str_replace(" ", "%20", $subject);
-	$body_prefix = 'Dear%20[Name%20here],%0A%0A';
-	$body = "[message goes here]";	
-	$url_friendly_body = str_replace(" ", "%20", $body);
-	$body_suffix = '%0A%0AKind%20regards,%0ARichard%20Lovell%0ALead%20Developer';
-	
-	$message_intro = '<p>From '.$name.' (<a href="mailto:'.$email.'?subject='.$url_friendly_subject.'
-&body='.$body_prefix.$url_friendly_body.$body_suffix.'">'.$email.'</a>)</p>';
-//        $message_intro = '<p>From '.$name.' (<a href="mailto:'.$email.'?subject=%20Your%20Robios%20enquiry
-//&body=Dear%20[Name%20here],%0A%0A]Your%20message%20here]%0A%0AKind%20regards,%0ARichard%20Lovell%0ALead%20Developer">'.$email.'</a>'.$email.'>)</p>';
-        $message = $message_intro.$this->input->post('message');
-        if (send_email($subject, $message)) {
-            $this->session->set_flashdata('success', 'Thank you for contacting us. We will be in touch shortly.');
-            redirect("/site#contact", 'refresh');
-	    } else {
+            $subject = 'Robios Enquiry from ' . $name;
+            $email = $this->input->post('email');
+
+            $body_prefix = 'Dear%20[Name%20here],%0A%0A';
+            $body = "[message goes here]";
+
+            $body_suffix = '%0A%0AKind%20regards,%0ARichard%20Lovell%0ALead%20Developer';
+
+            $message = $this->get_message($this->input->post('message'), $name, $email, $subject, $body_prefix, $body, $body_suffix); //$message_intro.$this->input->post('message');
+            if (send_email($subject, $message)) {
+                $this->session->set_flashdata('success', 'Thank you for contacting us. We will be in touch shortly.');
+                redirect("/site#contact", 'refresh');
+            } else {
 //		TODO handle error         show_error($this->email->print_debugger());
-	    }
+            }
         }
     }
 
@@ -105,20 +100,28 @@ $subject = 'Enquiry from '.$name;
      */
     public function ajax_send_enquiry() {
         $email = $this->input->post('enquiry-email');
-        $name = $this->input->post('enquiry-name');
-        $message_intro = '<p>From '.$name.' <'.$email.'></p>';
-        $message = $message_intro.$this->input->post('enquiry-message');
+        $name = $this->input->post('enquiry-name');      
+        $msg = $this->input->post('enquiry-message');
         $type = $this->input->post('enquiry-type');
-        $subject = 'Enquiry: ' + $type;
-
+        $subject = 'Robios Enquiry: ' . $type;
         $this->load->helper('email');
-
-        if ($this->email->send_email($subject, $message)) {
-            //if ($this->_send_email('Enquiry: ' + $type, $name, $email, $message)) {
+        $body_prefix = 'Dear%20[Name%20here],%0A%0A';
+        $body = "[message goes here]";
+        $body_suffix = '%0A%0AKind%20regards,%0ARichard%20Lovell%0ALead%20Developer';
+        $message = $this->get_message($msg, $name, $email, $subject, $body_prefix, $body, $body_suffix);
+        if (send_email($subject, $message)) {
             echo 'success';
         } else {
             echo 'fail';
         }
+    }
+
+    private function get_message($msg, $name, $email, $subject, $body_prefix, $body, $body_suffix) {
+        $url_friendly_subject = str_replace(" ", "%20", $subject);
+        $url_friendly_body = str_replace(" ", "%20", $body);
+        $message_intro = '<p>From ' . $name . ' (<a href="mailto:' . $email . '?subject=' . $url_friendly_subject . '
+&body=' . $body_prefix . $url_friendly_body . $body_suffix . '">' . $email . '</a>)</p>';
+        return $message_intro . $msg;
     }
 
 }
