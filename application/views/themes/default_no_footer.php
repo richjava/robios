@@ -107,7 +107,7 @@
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                            <button type="submit"  class="btn btn-primary">Send Enquiry</button>
+                            <button type="submit"  class="btn btn-primary"><i class="fa fa-paper-plane"></i>&nbsp;&nbsp;SEND ENQUIRY</button>
                         </div>
                     </form>
                 </div>
@@ -136,7 +136,7 @@
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                            <button type="submit"  class="btn btn-primary">Sign In</button>
+                            <button type="submit"  class="btn btn-primary"><i class="fa fa-sign-in"></i>&nbsp;&nbsp;SIGN IN</button>
                         </div>
                     </form>
                 </div>

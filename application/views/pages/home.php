@@ -10,7 +10,7 @@
                 <img class="ls-l" style="top:275px;left:217px;white-space: nowrap;" data-ls="offsetxin:0;durationin:1500;delayin:3500;scalexin:1.5;scaleyin:1.5;" src="http://d2sribx23tmroi.cloudfront.net/wp-content/plugins/LayerSlider/static/img/blank.gif" data-src="<?php echo base_url(); ?>assets/themes/default/images/slide-a-4.png" alt="">
                 <img class="ls-l" style="top:476px;left:518px;white-space: nowrap;" data-ls="offsetxin:0;durationin:1;delayin:3498;offsetxout:0;durationout:750;showuntil:1;easingout:easeOutSine;scalexout:10;scaleyout:10;" src="http://d2sribx23tmroi.cloudfront.net/wp-content/plugins/LayerSlider/static/img/blank.gif" data-src="http://d2sribx23tmroi.cloudfront.net/wp-content/uploads/2013/12/slide-a-6.png" alt="">
                 <img class="ls-l" style="top:475px;left:465px;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:bottom;delayin:2500;offsetxout:0;offsetyout:bottom;durationout:1000;showuntil:1;" src="http://d2sribx23tmroi.cloudfront.net/wp-content/plugins/LayerSlider/static/img/blank.gif" data-src="http://d2sribx23tmroi.cloudfront.net/wp-content/uploads/2013/12/slide-a-5.png" alt="">
-                <h1 class="ls-l" style="top:85px;left:350px;font-weight: 500; text-align: center;width:340px;font-family:Oswald, Lato, 'Open Sans', HelveticaNeue-UltraLight, HelveticaNeue-Light, HelveticaNeue, Helvetica, Arial, serif-Light, HelveticaNeue, Helvetica, Arial, serif;font-size:60px;color:#fff;border-radius:5px;white-space: nowrap;text-shadow: 1px 1px 1px #333333;" data-ls="offsetxin:0;durationin:2500;delayin:3000;easingin:easeOutElastic;rotatexin:90;transformoriginin:50% bottom 0;offsetxout:0;rotateout:-90;transformoriginout:left bottom 0;">WEB AND MOBILE SOLUTIONS</h1>
+                <h1 class="ls-l" style="top:85px;left:350px;font-weight: 500; text-align: center;width:900px;font-family:Oswald, Lato, 'Open Sans', HelveticaNeue-UltraLight, HelveticaNeue-Light, HelveticaNeue, Helvetica, Arial, serif-Light, HelveticaNeue, Helvetica, Arial, serif;font-size:60px;color:#fff;border-radius:5px;white-space: nowrap;text-shadow: 1px 1px 1px #333333;" data-ls="offsetxin:0;durationin:2500;delayin:3000;easingin:easeOutElastic;rotatexin:90;transformoriginin:50% bottom 0;offsetxout:0;rotateout:-90;transformoriginout:left bottom 0;">WEB AND MOBILE SOLUTIONS</h1>
                 <p class="ls-l" style="top:200px;left:822px;font-weight: 300;height:40px;padding-right:10px;padding-left:10px;font-family:Lato, 'Open Sans', sans-serif;font-size:30px;line-height:37px;color:#ffffff;background:#bf392b;border-radius:4px;white-space: nowrap;" data-ls="durationin:1500;delayin:3300;rotatein:20;rotatexin:30;scalexin:1.5;scaleyin:1.5;transformoriginin:left 50% 0;durationout:750;rotateout:20;rotatexout:-30;scalexout:0;scaleyout:0;transformoriginout:left 50% 0;">PROFESSIONAL RESULTS</p>
                 <p class="ls-l" style="top:240px;left:822px;font-weight: 300;font-family:Lato, 'Open Sans', sans-serif;font-size:24px;color:#333;white-space: nowrap;" data-ls="offsetxin:0;durationin:1500;delayin:3700;rotateyin:90;skewxin:60;transformoriginin:25% 50% 0;offsetxout:100;durationout:750;skewxout:60;">using the latest technologies</p>
                 <p class="ls-l" style="top:300px;left:822px;font-weight: 300;height:40px;padding-right:10px;padding-left:10px;font-family:Lato, 'Open Sans', sans-serif;font-size:30px;line-height:37px;color:#ffffff;background:#bf392b;border-radius:4px;white-space: nowrap;" data-ls="durationin:1500;delayin:4000;rotatein:20;rotatexin:30;scalexin:1.5;scaleyin:1.5;transformoriginin:left 50% 0;durationout:750;rotateout:20;rotatexout:-30;scalexout:0;scaleyout:0;transformoriginout:left 50% 0;">SMALL BUSINESS FRIENDLY</p>
@@ -21,7 +21,7 @@
                 <p class="ls-l" style="top:540px;left:821px;font-weight: 300;font-family:Lato, 'Open Sans', sans-serif;font-size:24px;color:#333;white-space: nowrap;" data-ls="offsetxin:0;durationin:1500;delayin:5800;rotateyin:90;skewxin:60;transformoriginin:25% 50% 0;offsetxout:100;durationout:750;skewxout:60;">with template-based solutions</p></div>-->
 <a href="#pricing" role="button" class="ls-l btn btn-primary" style="position:absolute;top:500px;left:850px;font-weight: 300;padding:20px 30px;" data-ls="durationin:1500;delayin:5400;rotatein:20;rotatexin:30;scalexin:1.5;scaleyin:1.5;transformoriginin:left 50% 0;durationout:750;rotateout:20;rotatexout:-30;scalexout:0;scaleyout:0;transformoriginout:left 50% 0;">
                 <!--<button  name="send_notification" type="submit" class="ls-l btn btn-primary" style="position:absolute;top:500px;left:850px;font-weight: 300;padding:20px 30px;" data-ls="durationin:1500;delayin:5400;rotatein:20;rotatexin:30;scalexin:1.5;scaleyin:1.5;transformoriginin:left 50% 0;durationout:750;rotateout:20;rotatexout:-30;scalexout:0;scaleyout:0;transformoriginout:left 50% 0;">-->
-                    VIEW OUR PLANS <i class="fa fa-chevron-right" ></i>
+                    VIEW OUR PLANS&nbsp;&nbsp;<i class="fa fa-chevron-right" ></i>
                 </a>
                 </div>
                                  <!--<p class="ls-l" style="top:500px;left:820px;font-weight: 300;height:40px;padding-right:10px;padding-left:10px;font-family:Lato, 'Open Sans', sans-serif;font-size:30px;line-height:37px;color:#ffffff;background:#bf392b;border-radius:4px;white-space: nowrap;" data-ls="durationin:1500;delayin:5400;rotatein:20;rotatexin:30;scalexin:1.5;scaleyin:1.5;transformoriginin:left 50% 0;durationout:750;rotateout:20;rotatexout:-30;scalexout:0;scaleyout:0;transformoriginout:left 50% 0;">LOW COST</p>-->
@@ -96,7 +96,7 @@
                                 </table>
                             </div>
                             <div class="panel-footer">
-                                <a href="#" data-toggle="modal" data-target="#enquiryModal" class="btn btn-success" role="button" onclick="setEnquiryModalTitle('CUSTOM WEBSITE');">GET STARTED</a></div>
+                                <a href="#" data-toggle="modal" data-target="#enquiryModal" class="btn btn-success" role="button" onclick="setEnquiryModalTitle('CUSTOM WEBSITE');">GET STARTED&nbsp;&nbsp;<i class="fa fa-chevron-right" ></i></a></div>
                         </div>
                     </div>
                     <div class="col-xs-12 col-md-3">
@@ -141,7 +141,7 @@
                                 </table>
                             </div>
                             <div class="panel-footer">
-                                <a href="#" data-toggle="modal" data-target="#enquiryModal" class="btn btn-success" role="button" onclick="setEnquiryModalTitle('WEBSITE TO ANDROID APP');">GET STARTED</a></div>
+                                <a href="#" data-toggle="modal" data-target="#enquiryModal" class="btn btn-success" role="button" onclick="setEnquiryModalTitle('WEBSITE TO ANDROID APP');">GET STARTED&nbsp;&nbsp;<i class="fa fa-chevron-right" ></i></a></div>
                         </div>
                     </div>
                     <div class="col-xs-12 col-md-3">
@@ -181,7 +181,7 @@
                                 </table>
                             </div>
                             <div class="panel-footer">
-                                <a href="#" data-toggle="modal" data-target="#enquiryModal" class="btn btn-success" role="button" onclick="setEnquiryModalTitle('SITE TO APP NOTIFICATIONS');">GET STARTED</a></div>
+                                <a href="#" data-toggle="modal" data-target="#enquiryModal" class="btn btn-success" role="button" onclick="setEnquiryModalTitle('SITE TO APP NOTIFICATIONS');">GET STARTED&nbsp;&nbsp;<i class="fa fa-chevron-right" ></i></a></div>
                         </div>
                     </div>
                     <div class="col-xs-12 col-md-3">
@@ -229,7 +229,7 @@
                                 </table>
                             </div>
                             <div class="panel-footer">
-                                <a href="#" data-toggle="modal" data-target="#enquiryModal" class="btn btn-success" role="button" onclick="setEnquiryModalTitle('WEBSITE + APP + NOTIFICATIONS');">GET STARTED</a>
+                                <a href="#" data-toggle="modal" data-target="#enquiryModal" class="btn btn-success" role="button" onclick="setEnquiryModalTitle('WEBSITE + APP + NOTIFICATIONS');">GET STARTED&nbsp;&nbsp;<i class="fa fa-chevron-right" ></i></a>
                             </div>
                         </div>
                     </div>
@@ -283,8 +283,9 @@
                         <textarea placeholder="MESSAGE" class="form-control" rows="4" name="message"></textarea>
                     </div>
                     <div class="form-group">
-                        <input id="submit" name="submit" type="submit" value="SEND MESSAGE" class="btn btn-primary pull-right">
-
+                        <button id="submit" name="submit" type="submit" value="" class="btn btn-primary pull-right">
+                            <i class="fa fa-paper-plane"></i>&nbsp;&nbsp;SEND MESSAGE
+                        </button>
                     </div>
                     <?php echo form_close(); ?>
                 </div>
