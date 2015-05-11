@@ -146,7 +146,8 @@
             $(document).ready(function ($) {
                 if (window.location.href.indexOf("#") === -1) {
                     setTimeout(function () {
-                        $("#main-content").animate({top: $("#main-img").height() + 45}, 800);
+ //                        $("#main-content").animate({top: $("#layerslider_29").height()}, 800);
+                        $("#main-content").animate({top: 715}, 800);
                     }, 1000);
                 } else {
                     $("#main-content").css({top: $("#main-img").height() + 45});
