@@ -102,7 +102,6 @@ class Dashboard_Controller extends MY_Controller {
 	    //is add/edit
 	    if (!$this->input->post()) {
 		$data = $this->get_add_edit_data($id);
-
 		$data["is_edit"] = ($id == null);
 		$this->load->view('pages/dashboard', $data);
 	    } else {//if is insert/update
@@ -189,7 +188,7 @@ class Dashboard_Controller extends MY_Controller {
 
     private function check_send_notification($id, $item_data) {
 	//if send notification       
-	if ($this->input->post('send_notification')) {
+	if ($this->input->post('send_notification')!=null) {
 	    //send notification
 	    //$this->load->config('pushbots');
 	    $this->load->helper('notifications');

@@ -57,17 +57,15 @@ $icon = $is_edit ? 'fa fa-plus-square' : 'fa fa-pencil';
 </div>
 <?php
 $status_data = array(
-    'name' => 'status',
-    'type' => 'hidden',
-    'value' => set_value('status', @$item->status)
+    'status' => set_value('status', @$item->status)
 );
-echo form_input($status_data);
+echo form_hidden($status_data);
 ?>
 <button  name="save" type="submit" class="btn btn-default">
     <i class="fa fa-floppy-o"></i> Save
 </button>
 <?php if (!$item->status || $item->status === "Pending"): ?>
-<button  name="send_notification" type="submit" class="btn btn-primary">
+<button  name="send_notification" type="submit" value="send_notification" class="btn btn-primary">
     <i class="fa fa-paper-plane"></i> Send notification
 </button>
 <?php endif; ?>
