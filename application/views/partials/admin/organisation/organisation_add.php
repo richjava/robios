@@ -36,13 +36,15 @@ $icon = $is_edit ? 'fa fa-plus-square' : 'fa fa-pencil';
             ?>
         </div>
         <?php
-    } else {
+    } else { 
         echo '<div class="'.strtolower($item->status).'">' . $item->status . '</div><input type="hidden" value="Active"/>';
     }
     ?>
 
 </div>
-
-<?php echo form_submit(array('name' => 'submit', 'class' => 'btn btn-primary', 'value' => $action . ' organisation')); ?>
+<button  name="submit" type="submit" class="btn btn-primary">
+    <i class="fa fa-floppy-o"></i> Save
+</button>
+<?php //echo form_submit(array('name' => 'submit', 'class' => 'btn btn-primary', 'value' => $action . ' organisation')); ?>
 <?php
 echo form_close();
