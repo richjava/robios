@@ -25,6 +25,7 @@ class Coupon_notifications extends Dashboard_Controller {
     }
 
     public function get_items(&$config) {
+        $this->init();
         $config['total_rows'] = $this->Coupon->count_all();
         $offset = $this->uri->segment($config['uri_segment']);
         $this->Coupon->limit($config['per_page'], $offset);

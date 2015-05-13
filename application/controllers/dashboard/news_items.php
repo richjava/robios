@@ -146,7 +146,7 @@ class News_items extends Dashboard_Controller {
             $this->output->set_template('blank');
         }
 
-        $this->load->view('pages/news_item_detail', array("item" => $item));
+        $this->load->view('pages/news_item_detail', array("item" => $item, "device_type"=>$device_type));
     }
     
     public function get_item_instance(){

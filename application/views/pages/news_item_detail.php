@@ -2,7 +2,9 @@
     <div class="container">
 	<div id="detail-content" class="row detail-news">
 	    <div class="col-sm-6 col-sm-offset-3">
+                <?php if (!$device_type): ?>
 		<h4><i class="fa fa-newspaper-o"></i> News</h4>
+                <?php endif; ?>
 		<h3><?php echo $item->title ?></h3>
 		<p><small>Published on <?php echo date( 'g:ia, d F Y', strtotime($item->date_created));  ?></small></p>
                 <?php if($item->image_url): ?>

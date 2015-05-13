@@ -168,7 +168,7 @@ class Coupons extends Dashboard_Controller {
 	    $this->output->set_template('detail');
 	}
 
-	$this->load->view('pages/coupon_detail', array("item" => $item));
+	$this->load->view('pages/coupon_detail', array("item" => $item, "device_type"=>$device_type));
     }
 
     public function get_item_instance() {

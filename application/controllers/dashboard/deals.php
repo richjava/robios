@@ -168,7 +168,7 @@ class Deals extends Dashboard_Controller {
 	    $this->output->set_template('blank');
 	}
 	$item = $this->get_item($id);
-	$this->load->view('pages/deal_detail',array("item"=>$item));
+	$this->load->view('pages/deal_detail',array("item"=>$item, "device_type"=>$device_type));
     }
     
     public function get_item_instance(){
