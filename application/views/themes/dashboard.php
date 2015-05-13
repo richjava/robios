@@ -123,7 +123,7 @@
                     <form id="frm-login" action="<?php echo base_url() ?>auth/validate" method="POST">
                         <div class="modal-body">
 
-                            <div id="login-fail-errormsg" class="alert alert-danger hidden" role="alert">Incorrect username and/or password. Please try again.</div>
+                            <div id="login-fail-errmsg" class="alert alert-danger hidden" role="alert">Incorrect username and/or password. Please try again.</div>
                             <div id="email-exists-errormsg" class="alert alert-danger hidden" role="alert">This email already exists.</div>
                             <div class="form-group">
                                 <label for="email">Email</label>

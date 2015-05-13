@@ -1,6 +1,6 @@
 <section>
     <div class="container">
-	<div id="detail-content" class="row detail-coupon">
+        <div id="detail-content" class="row detail-coupon" style="overflow: hidden;">
 	    <div class="col-sm-6 col-sm-offset-3">
 		<h4><i class="fa fa-ticket"></i> Coupon</h4>
 		<h3><?php echo $item->title ?></h3>
