@@ -193,8 +193,8 @@ class Dashboard_Controller extends MY_Controller {
 	    //send notification
 	    //$this->load->config('pushbots');
 	    $this->load->helper('notifications');
-	    $url = base_url() . "dashboard/coupons/detail/$id";
-	    if (!send_notification($url, $item_data['title'])) {
+	    $url = base_url() . "dashboard/coupons/detail/$id/mobile";
+	    if (!send_notification($url, $item_data['title'], ucfirst($this->get_item_name()))) {
 		//TODO handle send notification error
 	    }
 	}

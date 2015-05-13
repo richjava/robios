@@ -1,6 +1,6 @@
 <?php
 
-function send_notification($url, $message, $platform = "1") {
+function send_notification($url, $message, $title = null, $platform = "1") {
     $ci =& get_instance();
     $ci->load->library('Pushbots');
     $ci->config->load('pushbots');
@@ -15,8 +15,12 @@ function send_notification($url, $message, $platform = "1") {
     $pb->Alert($message);
     $pb->Platform($platform); //"1" = android
     //$pb->Badge("1");
+    //
 // Custom fields - payload data
     $customfields = array("nextActivity" => "nz.co.richjavalabs.motelapp.WebActivity", "url" => $url);
+    if($title){
+        $customfields["title"] = $title;
+    }
     $pb->Payload($customfields);
 
 // Update Alias 

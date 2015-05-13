@@ -117,6 +117,10 @@ class News_items extends Dashboard_Controller {
     public function get_item_name() {
         return $this->item_name;
     }
+    
+    public function get_simple_item_name() {
+        return "news";
+    }
 
     public function delete($id) {
         $this->load->model('News_item');

@@ -139,6 +139,10 @@ class Deals extends Dashboard_Controller {
         return $this->item_name;
     }
     
+    public function get_simple_item_name() {
+        return $this->get_item_name();
+    }
+    
     public function delete($id) {
         $this->load->model('Deal');
         if ($this->Deal->delete($id)) {

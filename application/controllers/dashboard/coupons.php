@@ -139,6 +139,10 @@ class Coupons extends Dashboard_Controller {
     public function get_item_name() {
 	return $this->item_name;
     }
+    
+    public function get_simple_item_name() {
+        return $this->get_item_name();
+    }
 
     public function delete($id) {
 	$this->load->model('Coupon');
