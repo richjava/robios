@@ -19,8 +19,8 @@ class Coupon_notifications extends Dashboard_Controller {
         $this->load->model('Coupon');
     }
 
-    public function index() {
-        $data = $this->list_items(base_url() . 'coupon_notifications/', 50, 3);
+    public function coupons_list($user_id) {
+        $data = $this->list_items(base_url() . 'coupon_notifications/coupons_list/'.$user_id, 5, 4);
         $this->load->view('pages/coupon_notification_list', $data);
     }
 
@@ -30,7 +30,7 @@ class Coupon_notifications extends Dashboard_Controller {
         $offset = $this->uri->segment($config['uri_segment']);
         $this->Coupon->limit($config['per_page'], $offset);
         $this->Coupon->order_by("expiry_date", "desc");
-        return $this->Coupon->get_many_by('user_id', 1);
+        return $this->Coupon->get_many_by('user_id', $this->uri->segment(3));
     }
 
     public function process_items($items, $row) {
